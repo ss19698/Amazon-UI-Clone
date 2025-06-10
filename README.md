@@ -32,21 +32,6 @@ Before running this project, make sure you have: A modern web browser (Chrome, F
 Open the project folder in your code editor Right-click on index.html and select "Open with Live Server" Or simply open index.html in your web browser.
 View the application Navigate to http://localhost:5500 (if using Live Server) or open the HTML file directly.
 
-# 📁 Project Structure
-amazon-ui-clone/ ├── 📄 index.html          # Main HTML 
-       structure ├── 🎨 style.css           # All CSS styles and responsive design 
-                 ├── 📁 images/             # Product and UI images 
-                 │   ├── OIP.png        # Amazon logo 
-                 │   ├── back.jpg       # Hero background image 
-                 │   ├── us.svg         # US flag icon 
-                 │   ├── i1.jpg - i9.jpg # Product category images 
-                 │   ├── cooker.jpg     # Kitchen appliance images 
-                 │   ├── coffee.jpg 
-                 │   ├── pot.jpg 
-                 │   ├── kettle.jpg 
-                 │   |── [other product images] 
-                 ├── 📖 README.md 
-                 |── 🚫.gitignore 
 # ⚠️ Disclaimer
 This project is created for educational purposes only. It is not affiliated with or endorsed by Amazon. All trademarks and copyrights belong to their respective owners.
 
