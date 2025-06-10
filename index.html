@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div id="navbar">
+            <div>
+                <img src="OIP.png" id="navlogo" class="border" >
+            </div>
+            <div id="navloc" class="border">
+                <div id ="loc_symbol">
+                    <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <div> 
+                    <p id="nd">Deliver to</p>
+                    <b id="ns">India</b>
+                </div>
+            </div>
+            <div id="searchBox">
+                <form id="navsearch" >
+                    <select id="sel" class="colorChange">
+                    <option value="All">All</option>
+                    </select>
+                    <input type="text" placeholder="Search Amazon" id="sbox">
+                    <button id="sbtn" class="colorChange">
+                        <i class="fa-solid fa-magnifying-glass"></i> 
+                    </button>
+                </form>
+            </div>
+            <div id="lang" class="border">
+                <div id="us"></div>
+                <select id="langSel" >
+                    <option value="All">EN</option>
+                </select>
+            </div>
+            <div id="acc" class="border">
+                <p id="t1" >Hello, sign in</p>
+                <select name="xyz" id="account">
+                    <option value="accounts">
+                        Account & Lists
+                    </option>
+                </select>
+            </div>
+            <div id="return" class="border">
+                <p id="re">Returns</p>
+                <p id="ord">& Orders</p>
+            </div>
+            <div id="navcart" class="border">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <p id = "cart">Cart</p>
+            </div>
+        </div>
+        <div id="navmain">
+            <div id ="nav-all" class="border">
+                <i id = "sym" class="fa-solid fa-bars"></i> All
+            </div>
+            <div class= "nav1" class="border">Today's Deals</div>
+            <div class= "nav1" class="border">Register</div>
+            <div class= "nav1" class="border">Prime Video</div>
+            <div class= "nav1" class="border">Gift Cards</div>
+            <div class= "nav1" class="border">Customer Service</div>
+            <div class= "nav1" class="border">Sell</div>
+        </div>
+    </header>
+    <div id="backimg"></div>
+    <div id="gradient"></div>
+    <div id="mainbody">
+        <div id = "msg">You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery. 
+                <a id="indialink" href="amazon.in">Click here to go to amazon.in</a>
+        </div>
+        <div id="main">
+            <div class="lines">
+                <div class="m">
+                    <h2 style="margin-bottom: 10px; ">Shop Fashion for less</h2>
+                    <div class='m4'>
+                        <div class='i2'>
+                            <div style="margin-right: 20px;">
+                                <img src="i1.jpg" alt="jeans" class='l1_img'>
+                                <p class='imgtitle'>Jeans under $50</p>
+                            </div>
+                            <div>
+                                <img src="i2.jpg" alt="tops" class='l1_img'>
+                                <p class='imgtitle'>tops under $25</p>
+                            </div>
+                        </div>
+                        <div class='i2'>
+                            <div style="margin-right: 20px;">
+                                <img src="i3.jpg" alt="dresses" class='l1_img'>
+                                <p class='imgtitle'>dresses under $30</p>
+                            </div>
+                            <div>
+                                <img src="i4.jpg" alt="shoes" class='l1_img'>
+                                <p class='imgtitle'>shoes under $50</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="lik">See all deals</p>
+                </div>
+
+                <div class="m">
+                    <h2 style="margin-bottom: 10px; ">Shop for your home essentials</h2>
+                    <div class='m4s'>
+                        <div class='i2'>
+                            <div style="margin-right: 20px;">
+                                <img src="i5.jpg" alt="jeans" class='l2_img'>
+                                <p class='imgtitle'>Cleaning Tools</p>
+                            </div>
+                            <div>
+                                <img src="i6.jpg" alt="tops" class='l2_img'>
+                                <p class='imgtitle'>Home Storage</p>
+                            </div>
+                        </div>
+                        <div class='i2'>
+                            <div style="margin-right: 20px;">
+                                <img src="i7.jpg" alt="dresses" class='l2_img'>
+                                <p class='imgtitle'>Home Decor</p>
+                            </div>
+                            <div>
+                                <img src="i8.jpg" alt="shoes" class='l2_img'>
+                                <p class='imgtitle'>Bedding</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="lik">Dicover more in Home</p>
+                </div>
+                <div class="m">
+                    <h2 style="margin-bottom: 10px; ">Top categories in Kitchen appliances</h2>
+                    <div class='m4s'>
+                        <div class='i2'>
+                            <div style="margin-right: 20px;">
+                                <img src="cooker.jpg" alt="jeans" style="height: 112px; width: 112%;">
+                                <p class='imgtitle'>Cooker</p>
+                            </div>
+                        </div>
+                        <div class='i2'>
+                            <div style="margin-right: 10px;">
+                                <img src="coffee.jpg" alt="tops" class='l2_img' >
+                                <p class='imgtitle'>coffee</p>
+                            </div>
+                            <div style="margin-right: 10px;">
+                                <img src="pot.jpg" alt="dresses" class='l2_img'>
+                                <p class='imgtitle'>Pots</p>
+                            </div>
+                            <div>
+                                <img src="kettle.jpg" alt="shoes" class='l2_img'>
+                                <p class='imgtitle'>Kettles</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="lik">Explore all products in Kitchen</p>
+                </div>
+                <div class="m">
+                    <h2 style="margin-bottom: 10px; ">Get your game on</h2>
+                    <img src="i9.jpg" class='onei'>
+                    <p class="onelik">Shop gaming</p>
+                </div>
+            </div>
+            <div class="lines">
+                <div class="m">
+                    <h2 style="margin-bottom: 10px; ">New home arrivals under $50</h2>
+                    <div class='m4s'>
+                        <div class='i2'>
+                            <div style="margin-right: 20px;">
+                                <img src="k&d.png" class='l2_img'>
+                                <p class='imgtitle'>Kitchen & Dining</p>
+                            </div>
+                            <div>
+                                <img src="hi.png" class='l2_img'>
+                                <p class='imgtitle'>Home Improvement</p>
+                            </div>
+                        </div>
+                        <div class='i2'>
+                            <div style="margin-right: 20px;">
+                                <img src="decor.png" class='l2_img'>
+                                <p class='imgtitle'>Decor</p>
+                            </div>
+                            <div>
+                                <img src="b&bath.png" class='l2_img'>
+                                <p class='imgtitle'>Bedding & Bath</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="lik">Shop the latest from Home</p>
+                </div>
+                <div class="m">
+                    <h2 style="margin-bottom: 10px; ">Toy under $25</h2>
+                    <img src="toy.png" class='onei'>
+                    <p class="onelik">Shop now</p>
+                </div>
+                <div class="m">
+                    <h2 style="margin-bottom: 10px; ">Gifts for Dad under $25</h2>
+                    <img src="dadg.png" class='onei'>
+                    <p class="onelik">See all deals</p>
+                </div>
+                <div class="m">
+                    <h2 style="margin-bottom: 10px; ">Refresh your space</h2>
+                    <div class='m4'>
+                        <div class='i2'>
+                            <div style="margin-right: 20px;">
+                                <img src="dining.jpg" class='l1_img'>
+                                <p class='imgtitle'>Dining</p>
+                            </div>
+                            <div>
+                                <img src="home.jpg" class='l1_img'>
+                                <p class='imgtitle'>Home</p>
+                            </div>
+                        </div>
+                        <div class='i2'>
+                            <div style="margin-right: 20px;">
+                                <img src="kit.jpg" class='l1_img'>
+                                <p class='imgtitle'>Kitchen</p>
+                            </div>
+                            <div>
+                                <img src="H&B.jpg" alt="shoes" class='l1_img'>
+                                <p class='imgtitle'>Health and Beauty</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="lik">See all deals</p>
+                </div>
+            </div>
+    
+            <div class="lines">
+                <div class="m">
+                    <h2 style="margin-bottom: 10px; ">Easy updates for elevated spaces</h2>
+                    <div class='m4s'>
+                        <div class='i2'>
+                            <div style="margin-right: 20px;">
+                                <img src="b&h.jpg" class='l2_img'>
+                                <p class='imgtitle'>Baskets & hampers</p>
+                            </div>
+                            <div>
+                                <img src="hw.jpg" class='l2_img'>
+                                <p class='imgtitle'>Hardware</p>
+                            </div>
+                        </div>
+                        <div class='i2'>
+                            <div style="margin-right: 20px;">
+                                <img src="af.jpg" class='l2_img'>
+                                <p class='imgtitle'>Accent furniture</p>
+                            </div>
+                            <div>
+                                <img src="W&P.jpg" class='l2_img'>
+                                <p class='imgtitle'>Wallpaper & paint</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="lik">Shop home products</p>
+                </div>
+                <div class="m">
+                    <h2 style="margin-bottom: 10px; ">Wireless Tech</h2>
+                    <div class='m4'>
+                        <div class='i2'>
+                            <div style="margin-right: 20px;">
+                                <img src="sp.jpg" class='l1_img'>
+                                <p class='imgtitle'>Smartphones</p>
+                            </div>
+                            <div>
+                                <img src="watch.jpg" class='l1_img'>
+                                <p class='imgtitle'>Watches</p>
+                            </div>
+                        </div>
+                        <div class='i2'>
+                            <div style="margin-right: 20px;">
+                                <img src="hp.jpg" class='l1_img'>
+                                <p class='imgtitle'>Headphones</p>
+                            </div>
+                            <div>
+                                <img src="tab.jpg" alt="shoes" class='l1_img'>
+                                <p class='imgtitle'>Tablets</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="lik">Discover more</p>
+                </div>
+                <div class="m">
+                    <h2 style="margin-bottom: 10px; ">Gaming merchandise</h2>
+                    <div class='m4'>
+                        <div class='i2'>
+                            <div style="margin-right: 20px;">
+                                <img src="apprael.jpg" class='l1_img'>
+                                <p class='imgtitle'>Apparel</p>
+                            </div>
+                            <div>
+                                <img src="hat.jpg" class='l1_img'>
+                                <p class='imgtitle'>Hats</p>
+                            </div>
+                        </div>
+                        <div class='i2'>
+                            <div style="margin-right: 20px;">
+                                <img src="actf.jpg" class='l1_img'>
+                                <p class='imgtitle'>Action figures</p>
+                            </div>
+                            <div>
+                                <img src="mug.jpg" alt="shoes" class='l1_img'>
+                                <p class='imgtitle'>Mugs</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="lik">See more</p>
+                </div>
+                <div class="m">
+                    <h2 style="margin-bottom: 10px; ">Having more fun with family</h2>
+                    <div class='m4s'>
+                        <div class='i2'>
+                            <div style="margin-right: 20px;">
+                                <img src="outplay.jpg" class='l2_img'>
+                                <p class='imgtitle'>Outdoor Play Sets</p>
+                            </div>
+                            <div>
+                                <img src="Let.jpg" class='l2_img'>
+                                <p class='imgtitle'>Learning Toys</p>
+                            </div>
+                        </div>
+                        <div class='i2'>
+                            <div style="margin-right: 20px;">
+                                <img src="actf2.jpg" class='l2_img'>
+                                <p class='imgtitle'>Action Figures</p>
+                            </div>
+                            <div>
+                                <img src="ppt.jpg" alt="shoes" class='l2_img'>
+                                <p class='imgtitle'>Pretend Play Toys</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="lik">See more</p>
+                </div>
+            </div>
+            <div id="ml"></div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <footer>
+        <div id="new">
+            <h2>See personalized recommendations</h2>
+            <button id="signbtn"> Sign in</button>
+            <p id="line1">New customer? <a href="#" id="sth">Start here.</a></p>
+        </div>
+        <div id="gotop">
+            Back to top
+        </div>
+        <div id="out">
+            <div id="opt">
+                <div id="heading1">
+                    <h4 class="heads">Get to Know Us</h4>
+                    <ul>
+                        <li class="liel">Careers</li>
+                        <li class="liel">Blog</li>
+                        <li class="liel">About Amazon</li>
+                        <li class="liel">Investor Relations</li>
+                        <li class="liel">Amazon Devices</li>
+                        <li class="liel">Amazon Science</li>
+                    </ul>
+                </div>
+                <div id="heading2">
+                    <h4 class="heads"> Make Money with Us </h4>
+                    <ul>
+                        <li class="liel">Sell products on Amazon</li>
+                        <li class="liel">Sell on Amazon Business</li>
+                        <li class="liel">Sell apps on Amazon</li>
+                        <li class="liel">Become an Affiliate</li>
+                        <li class="liel">Advertise Your Products</li>
+                        <li class="liel">Self-Publish with Us</li>
+                        <li class="liel">Host an Amazon Hub</li>
+                        <li class="liel">› See More Make Money with Us</li>
+                    </ul>
+                </div>
+                <div id="heading3">
+                    <h4 class="heads"> Amazon Payment Products </h4>
+                    <ul>
+                        <li class="liel">Amazon Business Card</li>
+                        <li class="liel">Shop with Points</li>
+                        <li class="liel">Reload Your Balance</li>
+                        <li class="liel">Amazon Currency Converter</li>
+                    </ul>
+                </div>
+                <div id="heading4">
+                    <h4 class="heads"> Let Us Help You</h4>
+                    <ul>
+                        <li class="liel">Amazon and COVID-19</li>
+                        <li class="liel">Your Account</li>
+                        <li class="liel">Your Orders</li>
+                        <li class="liel">Shipping Rates & Policies</li>
+                        <li class="liel">Returns & Replacements</li>
+                        <li class="liel">Manage Your Content and Devices</li>
+                        <li class="liel">Help</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div id="com">
+                <img src="OIP.png" style="height: 27px; margin-right: 70px; padding-top:15px; cursor: pointer;">
+                <div id="lsel" style="cursor: pointer;">
+                    <i class="fa-solid fa-globe"></i> 
+                    <select id="val" style="cursor: pointer;">
+                        <option value="en">
+                        English 
+                        </option>
+                    </select>
+                </div>
+                <div id="usd" style="cursor: pointer;">
+                    <i class="fa-solid fa-dollar-sign"></i>
+                    USD - U.S. Dollar
+                </div>
+                <div id="united" style="cursor: pointer;">
+                    <img src="us.svg" id="usimg"> United States
+                </div>
+            </div>
+        </div>
+        <div id="last">
+            <div>
+                <ul class="l">
+                    <li class='hl1'>Amazon Music <p class='hs'> Stream millions of songs</p></li>
+                    <li class='hl1'>Amazon Ads <p class='hs'> Reach customers wherever they spend their time</p></li>
+                    <li class='hl1'>6pm <p class='hs'> Score deals on fashion brands</p></li>
+                    <li class='hl1'>AbeBooks <p class='hs'>Books, art & collectibles</p></li>
+                    <li class='hl1'>ACX<p class='hs'>Audiobook Publishing Made Easy</p></li>
+                    <li class='hl1'>Sell on Amazon<p class='hs'>Start a Selling Account</p></li>
+                    <li class='hl1'>Veeqo<p class='hs'>Shipping Software Inventory Management</p></li>
+                </ul>
+            </div>
+            <div>
+                <ul class="l">
+                    <li class='hl2'>Amazon Business <p class='hs'>Everything For Your Business</p></li>
+                    <li class='hl2'>AmazonGlobal<p class='hs'>Ship Orders Internationally</p></li>
+                    <li class='hl2'>Amazon Web Services<p class='hs'>Scalable Cloud Computing Services</p></li>
+                    <li class='hl2'>Audible<p class='hs'>Listen to Books & Original Audio Performances</p></li>
+                    <li class='hl2'>Box Office Mojo<p class='hs'>Find Movie Box Office Data</p></li>
+                    <li class='hl2'>Goodreads<p class='hs'>Book reviews & recommendations</p></li>
+                    <li class='hl2'>IMDb<p class='hs'>Movies, TV & Celebrities</p></li>
+                </ul>
+            </div>
+            <div>
+                <ul class='l'>
+                    <li class='hl3'>IMDbPro<p class='hs'> Get Info Entertainment Professionals Need</p></li>
+                    <li class='hl3'>Kindle Direct Publishing<p class='hs'>Indie Digital & Print Publishing Made Easy</p></li>
+                    <li class='hl3'>Prime Video Direct<p class='hs'>Video Distribution Made Easy</p></li>
+                    <li class='hl3'>Shopbop<p class='hs'>Designer Fashion Brands</p></li>
+                    <li class='hl3'>Woot!<p class='hs'>Deals and Shenanigans</p></li>
+                    <li class='hl3'>Zappos <p class='hs'>Shoes & Clothing</p></li>
+                    <li class='hl3'>Ring<p class='hs'>Smart Home Security Systems</p></li>
+                </ul>
+            </div>
+            <div id="l4">
+                <ul class='l'>
+                    <li class='hl4'></li>
+                    <li class='hl4'>eero WiFi<p class='hs'>Stream 4K Video in Every Room</p></li>
+                    <li class='hl4'>Blink<p class='hs'>Smart Security for Every Home</p></li>
+                    <li class='hl4'>Neighbors App<p class='hs'>Real-Time Crime & Safety Alerts</p></li>
+                    <li class='hl4'>Amazon Subscription Boxes <p class='hs'>Top subscription boxes - right to your door</p></li>
+                    <li class='hl4'>PillPack<p class='hs'>Pharmacy Simplified</p></li>
+                    <li class='hl4'></li>
+                </ul>
+            </div>
+        
+            <div id="lline">
+                <p class='d'>Conditions of Use</p>
+                <p class='d'>Privacy Notice</p>
+                <p class='d'>Customer Health Data Privacy Disclosure</p>
+                <p class='d'>Your Ads Privacy Choices </p>
+            </div>
+            <p id ='conc' style="font-size: 12px; text-align:center;"><i class="fa fa-copyright" aria-hidden="true"></i> 1996-2025, Amazon.com, Inc. or its affiliates</p>
+        </div>
+    </footer>
+</body>
+</html>
